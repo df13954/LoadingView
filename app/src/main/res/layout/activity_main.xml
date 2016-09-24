@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="home.ldr.com.imageloadingview.MainActivity">
+
+
+    <GridView
+        android:id="@+id/gv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_below="@+id/hv_album_gallery"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+    <!-- <home.ldr.com.imageloadingview.tools.DhomeLoadingView
+         android:id="@+id/lv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+     </home.ldr.com.imageloadingview.tools.DhomeLoadingView>-->
+</LinearLayout>
