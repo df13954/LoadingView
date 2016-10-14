@@ -15,7 +15,7 @@ import android.view.View;
  */
 public class LoadingView extends View {
 
-    private static final String TAG = "WeiBoLoadingView";
+    private static final String TAG = "LoadingView";
 
     public LoadingView(Context context) {
         this(context, null);
@@ -52,14 +52,10 @@ public class LoadingView extends View {
         mHeight = h;
         mRadius = Math.min(mWidth / 2, mHeight / 2) - 6;
 
-        Log.e(TAG, "mWidth:" + mWidth );
-        Log.e(TAG, "mHeight:" + mHeight );
-        Log.e(TAG, "mRadius:" + mRadius );
-        Log.e(TAG, "-mRadius + 9 :" +  -mRadius + 9);
-        Log.e(TAG, "mRadius - 9 :" + ( mRadius - 9));
+        
 
         // 9 : 外圆，和饼之间的距离
-        mOval = new RectF(-mRadius + 9, -mRadius + 9, mRadius - 9, mRadius - 9);
+        mOval = new RectF(-mRadius + 5, -mRadius + 5, mRadius - 5, mRadius - 5);
     }
 
     @Override
