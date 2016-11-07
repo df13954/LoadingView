@@ -1,9 +1,7 @@
 # LoadingView
 类似微博加载图片过程显示
 
-
-![image]{https://github.com/rongdongliu/LoadingView/blob/master/img/sample.gif}
-![image](https://github.com/rongdongliu/Notepad/blob/master/img/Screenshot_2016-10-26-10-29-35-405_com.ldrong.not.png)
+![image](https://github.com/rongdongliu/LoadingView/blob/master/img/sample.gif)
 ##增加依赖
 ```
 allprojects {
